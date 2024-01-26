@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* nav start */
+nav{
+    background-color: #02918b;
+}
+nav .container{
+    width: 1170px;
+    margin: auto;
+}
+nav .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .row ul li{
+    display: inline-block;
+}
+nav .row img{
+    padding: 18px 0 23px 0;
+}
+nav .row ul li a{
+    color: #ffffff;
+    padding: 0 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* nav end */
+
+/*banner start*/
+#banner{
+    background-image: url(../images/MYFOLIO.png);
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 730px;
+}
+#banner .row h4{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f1f2f2;
+    
+}
+#banner .row h1{
+    font-size: 68px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 16px;
+}
+#banner .row p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin-bottom: 66px;
+}
+#banner a{
+    padding: 20px 40px;
+    background-color: #cfc91d;
+    margin-top: 52px;
+    font-family: 'Open Sans', sans-serif;
+    color: #0b1016;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/*banner end*/
